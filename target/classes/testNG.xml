@@ -1,0 +1,19 @@
+<suite name = "Test Suite">
+    <test name = "Test">
+<parameter name = "browser" value="firefox"/>-->
+
+        <classes>
+            <class name="scripts.demotestng">
+                <methods>
+                    <include name="verifyloginpass"/>
+                </methods>
+            </class>
+            <class name ="scripts.cinemaBookingFromHomeToolTest">
+                <methods>
+                    <include name ="verifyBooking"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
