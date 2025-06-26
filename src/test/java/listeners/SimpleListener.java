@@ -37,6 +37,7 @@ public class SimpleListener implements ITestListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //test
 
     }
     public void onTestSkipped(org.testng.ITestResult result) { /* compiled code */
